@@ -1,0 +1,1 @@
+"""Prompts Configuration Module"""

@@ -1,0 +1,23 @@
+# LLM configs
+
+# default:
+#   provider: deepseek
+#   model: deepseek-chat
+#   base_url: https://api.deepseek.com  
+#   api_key:       
+
+default:
+  provider: qwen
+  model: qwen3:8b
+  base_url: http://127.0.0.1:52625/v1/  
+  api_key:     
+
+# Planner config
+planner:
+  temperature: 0.1    
+  max_tokens: 65536    
+
+# Executor config
+executor:
+  temperature: 0.3    
+  max_tokens: 65536    

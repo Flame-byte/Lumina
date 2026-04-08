@@ -1,0 +1,18 @@
+file_tools:
+  # Whitelist of directories allowed for reading
+  read_allowed_directories:
+    - "./"           # Project root directory (includes all subdirectories)
+
+  # Whitelist of directories allowed for writing (more restrictive)
+  write_allowed_directories:
+    - "./output/"    # Only allow writing to output directory
+
+  # Allowed file extensions (only basic text files)
+  allowed_extensions:
+    - ".txt"
+    - ".md"
+
+web_search:
+  max_results: 5          # Default number of results to return
+  timeout: 10             # Search timeout in seconds
+  tavily_api_key: ""      # Tavily API Key (leave empty to use environment variable TAVILY_API_KEY)

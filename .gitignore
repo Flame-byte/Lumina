@@ -1,0 +1,37 @@
+# Excluded by user request
+tests/
+venv/
+CLAUDE.md
+project_design.md
+video.txt
+
+# Runtime data
+sessions/
+output/
+
+# Frontend dependencies
+agent-chat-ui/node_modules/
+agent-chat-ui/.next/
+agent-chat-ui/out/
+
+# Environment files
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# OS
+.DS_Store
+Thumbs.db

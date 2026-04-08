@@ -1,0 +1,38 @@
+test_tool_descriptions = [
+    {
+        "name": "WebSearch",
+        "description": "Web search tool. Used for searching latest information, news, data, etc. on the internet. Supports search queries, accessing real-time data.",
+        "capabilities": ["Search queries", "Access real-time information", "News and data lookup"],
+        "use_cases": ["Query latest data", "Search factual information", "Access current news"]
+    },
+    {
+        "name": "FileOperator",
+        "description": "File operation tool. Used for reading, writing, copying, and moving files. Supports multiple file formats including text files, Word documents, PDFs, etc.",
+        "capabilities": ["Read file content", "Save file to specified path", "Copy file", "File path operations"],
+        "use_cases": ["Read document content", "Save results to file", "Process files in various formats"]
+    },
+    {
+        "name": "RAGBuilder",
+        "description": "Retrieval Augmented Generation (RAG) builder tool. Used for building knowledge bases from document libraries, supporting document indexing and semantic retrieval. Uses Chroma vector database.",
+        "capabilities": ["Build document knowledge base", "Semantic retrieval", "Document indexing"],
+        "use_cases": ["Build knowledge base", "Document Q&A", "Semantic search"]
+    },
+    {
+        "name": "ImageAnalyzer",
+        "description": "Image analysis tool. Uses vision language models (VLM) to parse image content, extracting text, objects, scenes, and other information from images.",
+        "capabilities": ["Image content recognition", "OCR text extraction", "Image understanding"],
+        "use_cases": ["Analyze image content", "Extract text from images", "Image description"]
+    },
+    {
+        "name": "PythonExecutor",
+        "description": "Python code execution tool (non-plotting). Used for executing Python code for data processing, computation, text analysis, and other logical operations. Does not include chart plotting functionality.",
+        "capabilities": ["Data processing", "Numerical computation", "Text analysis", "Logical operations"],
+        "use_cases": ["Data computation", "Text processing", "Data analysis", "String operations"]
+    },
+    {
+        "name": "PythonPlotter",
+        "description": "Python plotting tool. Specialized for creating various charts using matplotlib library, including bar charts, line charts, pie charts, scatter plots, and other data visualizations.",
+        "capabilities": ["Bar chart plotting", "Line chart plotting", "Pie chart plotting", "Scatter plot plotting", "Data visualization"],
+        "use_cases": ["Data visualization", "Statistical charts", "Trend analysis charts", "Comparison charts"]
+    }
+]

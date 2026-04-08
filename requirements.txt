@@ -1,0 +1,48 @@
+# 预处理模块依赖项
+chardet>=4.0.0
+Pillow>=8.0.0
+PyPDF2>=3.0.0
+pdf2image>=1.16.0
+pandas>=1.3.0
+openai>=1.0.0
+pydub>=0.25.0
+python-docx>=0.8.0
+
+# Agent 核心依赖
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+langgraph>=0.2.0
+langchain-community>=0.3.0
+langgraph-checkpoint-sqlite>=2.0.0
+pydantic>=2.0.0
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# 数据持久化
+sqlalchemy>=2.0.0
+
+# Python 工具依赖
+matplotlib>=3.5.0
+numpy>=1.21.0
+
+# HTTP 客户端（用于联网工具）
+httpx>=0.24.0
+
+# RAG 工具依赖
+langchain-chroma>=0.1.0
+chromadb>=0.4.0
+
+# 文本分割
+langchain-text-splitters>=0.2.0
+
+# 可选工具依赖
+langchain-tavily>=0.1.0     # Tavily 搜索引擎（推荐，更稳定）
+# duckduckgo-search>=4.0.0  # DuckDuckGo 搜索引擎（备用，已注释）
+
+# FastAPI 后端依赖
+fastapi>=0.109.0
+uvicorn[standard]>=0.27.0
+python-multipart>=0.0.6
+
+# 异步文件操作
+aiofiles>=23.0.0

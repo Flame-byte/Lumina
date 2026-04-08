@@ -1,0 +1,26 @@
+# Agent config
+
+session:
+  # checkpoint path
+  checkpoint_path: checkpoints.sqlite
+  # single user
+  single_user: true
+
+# Planner config
+planner:
+  # HITL (Human-in-the-loop)
+  hitl_enabled: true
+
+# Executor config
+executor:
+  # tool max retries
+  max_retries: 3
+  # log
+  verbose: false
+
+# tool config
+tools:
+  
+  default_category: general
+  
+  auto_register: true
